@@ -197,3 +197,28 @@ org.datanucleus.enhancer.NucleusEnhanceException: No "persistence-unit" of name 
 14/Sep/2015 15:38:18,165- Enhancer: Writing class file "/home/rsarkapally/argus/projects/datanucleus-hbase-jpa/target/classes/com/datanucleus/hbase/dao/Department.class" with enhanced definition
 14/Sep/2015 15:38:18,169- Enhancer: Writing class file "/home/rsarkapally/argus/projects/datanucleus-hbase-jpa/target/classes/com/datanucleus/hbase/dao/Employ.class" with enhanced definition
 14/Sep/2015 15:38:18,180- Enhancer: DataNucleus Enhancer completed with success for 2 classes. Timings : input=140 ms, enhance=53 ms, total=193 ms. Consult the log for full details
+14/Sep/2015 15:47:19,646- Enhancer: DataNucleus Enhancer for API "JPA"
+14/Sep/2015 15:47:19,739- Enhancer: DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+14/Sep/2015 15:47:19,869- Enhancer: Writing class file "/home/rsarkapally/argus/projects/datanucleus-hbase-jpa/target/classes/com/datanucleus/hbase/dao/Department.class" with enhanced definition
+14/Sep/2015 15:47:19,949- Enhancer: Writing class file "/home/rsarkapally/argus/projects/datanucleus-hbase-jpa/target/classes/com/datanucleus/hbase/dao/Employ.class" with enhanced definition
+14/Sep/2015 15:47:19,950- Enhancer: DataNucleus Enhancer completed with success for 2 classes. Timings : input=89 ms, enhance=120 ms, total=209 ms. Consult the log for full details
+14/Sep/2015 16:02:46,832- Enhancer: DataNucleus Enhancer for API "JPA"
+14/Sep/2015 16:02:46,924- Enhancer: DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+14/Sep/2015 16:02:47,058- Enhancer: Writing class file "/home/rsarkapally/argus/projects/datanucleus-hbase-jpa/target/classes/com/datanucleus/hbase/dao/Department.class" with enhanced definition
+14/Sep/2015 16:02:47,062- Enhancer: Writing class file "/home/rsarkapally/argus/projects/datanucleus-hbase-jpa/target/classes/com/datanucleus/hbase/dao/Employ.class" with enhanced definition
+14/Sep/2015 16:02:47,062- Enhancer: DataNucleus Enhancer completed with success for 2 classes. Timings : input=92 ms, enhance=45 ms, total=137 ms. Consult the log for full details
+14/Sep/2015 16:04:36,646- Enhancer: DataNucleus Enhancer for API "JPA"
+14/Sep/2015 16:04:36,742- Enhancer: DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+14/Sep/2015 16:04:36,882- Enhancer: Writing class file "/home/rsarkapally/argus/projects/datanucleus-hbase-jpa/target/classes/com/datanucleus/hbase/dao/Department.class" with enhanced definition
+14/Sep/2015 16:04:36,886- Enhancer: Writing class file "/home/rsarkapally/argus/projects/datanucleus-hbase-jpa/target/classes/com/datanucleus/hbase/dao/Employ.class" with enhanced definition
+14/Sep/2015 16:04:36,887- Enhancer: DataNucleus Enhancer completed with success for 2 classes. Timings : input=96 ms, enhance=47 ms, total=143 ms. Consult the log for full details
+14/Sep/2015 16:06:48,567- Enhancer: DataNucleus Enhancer for API "JPA"
+14/Sep/2015 16:06:48,662- Enhancer: DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+14/Sep/2015 16:06:48,799- Enhancer: Writing class file "/home/rsarkapally/argus/projects/datanucleus-hbase-jpa/target/classes/com/datanucleus/hbase/dao/Department.class" with enhanced definition
+14/Sep/2015 16:06:48,802- Enhancer: Writing class file "/home/rsarkapally/argus/projects/datanucleus-hbase-jpa/target/classes/com/datanucleus/hbase/dao/Employ.class" with enhanced definition
+14/Sep/2015 16:06:48,803- Enhancer: DataNucleus Enhancer completed with success for 2 classes. Timings : input=96 ms, enhance=43 ms, total=139 ms. Consult the log for full details
+14/Sep/2015 16:09:01,174- Enhancer: DataNucleus Enhancer for API "JPA"
+14/Sep/2015 16:09:01,269- Enhancer: DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+14/Sep/2015 16:09:01,400- Enhancer: Writing class file "/home/rsarkapally/argus/projects/datanucleus-hbase-jpa/target/classes/com/datanucleus/hbase/dao/Department.class" with enhanced definition
+14/Sep/2015 16:09:01,403- Enhancer: Writing class file "/home/rsarkapally/argus/projects/datanucleus-hbase-jpa/target/classes/com/datanucleus/hbase/dao/Employ.class" with enhanced definition
+14/Sep/2015 16:09:01,404- Enhancer: DataNucleus Enhancer completed with success for 2 classes. Timings : input=89 ms, enhance=45 ms, total=134 ms. Consult the log for full details

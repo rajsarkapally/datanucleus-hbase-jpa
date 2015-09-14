@@ -19,9 +19,7 @@ public class Employ {
 	  Department dept;
 	  
 	  public Employ(){};
-	  public Employ(long empId, String empName, String city, Department dept){
-		  
-		  this.empId=empId;
+	  public Employ(String empName, String city, Department dept){
 		  this.empName=empName;
 		  this.city=city;
 		  this.dept=dept;

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.datanucleus.hbase.service.TestDepartmentService" time="8.243" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="com.datanucleus.hbase.service.TestEmploy" time="0.257" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
@@ -60,5 +60,6 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.datanucleus.hbase.service.TestDepartmentService" name="testCreateDepartment" time="8.243"/>
+  <testcase classname="com.datanucleus.hbase.service.TestEmploy" name="testEmpCreation" time="0.188"/>
+  <testcase classname="com.datanucleus.hbase.service.TestEmploy" name="testReadAllEmployees" time="0.069"/>
 </testsuite>
