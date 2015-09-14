@@ -1,0 +1,199 @@
+11/Sep/2015 17:08:19,911- Enhancer: DataNucleus Enhancer for API "JPA"
+11/Sep/2015 17:08:20,007- Enhancer: DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+11/Sep/2015 17:08:20,010- Enhancer: DataNucleus Enhancer completed with an error. Please review the enhancer log for full details. Some classes may have been enhanced but some caused errors
+Error creating the MetaDataManager for API "JPA" : Class "org.datanucleus.api.jpa.metadata.JPAMetaDataManager" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.NucleusException: Error creating the MetaDataManager for API "JPA" : Class "org.datanucleus.api.jpa.metadata.JPAMetaDataManager" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.NucleusContext.getMetaDataManager(NucleusContext.java:958)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getMetaDataManager(DataNucleusEnhancer.java:215)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:651)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:525)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1258)
+Caused by: org.datanucleus.exceptions.ClassNotResolvedException: Class "org.datanucleus.api.jpa.metadata.JPAMetaDataManager" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.JDOClassLoaderResolver.classForName(JDOClassLoaderResolver.java:245)
+	at org.datanucleus.plugin.NonManagedPluginRegistry.createExecutableExtension(NonManagedPluginRegistry.java:679)
+	at org.datanucleus.plugin.PluginManager.createExecutableExtension(PluginManager.java:325)
+	at org.datanucleus.NucleusContext.getMetaDataManager(NucleusContext.java:952)
+	... 4 more
+Nested Throwables StackTrace:
+Class "org.datanucleus.api.jpa.metadata.JPAMetaDataManager" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "org.datanucleus.api.jpa.metadata.JPAMetaDataManager" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.JDOClassLoaderResolver.classForName(JDOClassLoaderResolver.java:245)
+	at org.datanucleus.plugin.NonManagedPluginRegistry.createExecutableExtension(NonManagedPluginRegistry.java:679)
+	at org.datanucleus.plugin.PluginManager.createExecutableExtension(PluginManager.java:325)
+	at org.datanucleus.NucleusContext.getMetaDataManager(NucleusContext.java:952)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getMetaDataManager(DataNucleusEnhancer.java:215)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:651)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:525)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1258)
+11/Sep/2015 17:10:49,141- Enhancer: DataNucleus Enhancer for API "JPA"
+11/Sep/2015 17:10:49,239- Enhancer: DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+11/Sep/2015 17:10:49,243- Enhancer: DataNucleus Enhancer completed with an error. Please review the enhancer log for full details. Some classes may have been enhanced but some caused errors
+Error creating the MetaDataManager for API "JPA" : Class "org.datanucleus.api.jpa.metadata.JPAMetaDataManager" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.NucleusException: Error creating the MetaDataManager for API "JPA" : Class "org.datanucleus.api.jpa.metadata.JPAMetaDataManager" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.NucleusContext.getMetaDataManager(NucleusContext.java:958)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getMetaDataManager(DataNucleusEnhancer.java:215)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:651)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:525)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1258)
+Caused by: org.datanucleus.exceptions.ClassNotResolvedException: Class "org.datanucleus.api.jpa.metadata.JPAMetaDataManager" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.JDOClassLoaderResolver.classForName(JDOClassLoaderResolver.java:245)
+	at org.datanucleus.plugin.NonManagedPluginRegistry.createExecutableExtension(NonManagedPluginRegistry.java:679)
+	at org.datanucleus.plugin.PluginManager.createExecutableExtension(PluginManager.java:325)
+	at org.datanucleus.NucleusContext.getMetaDataManager(NucleusContext.java:952)
+	... 4 more
+Nested Throwables StackTrace:
+Class "org.datanucleus.api.jpa.metadata.JPAMetaDataManager" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "org.datanucleus.api.jpa.metadata.JPAMetaDataManager" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.JDOClassLoaderResolver.classForName(JDOClassLoaderResolver.java:245)
+	at org.datanucleus.plugin.NonManagedPluginRegistry.createExecutableExtension(NonManagedPluginRegistry.java:679)
+	at org.datanucleus.plugin.PluginManager.createExecutableExtension(PluginManager.java:325)
+	at org.datanucleus.NucleusContext.getMetaDataManager(NucleusContext.java:952)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getMetaDataManager(DataNucleusEnhancer.java:215)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:651)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:525)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1258)
+14/Sep/2015 11:05:53,805- Enhancer: DataNucleus Enhancer for API "JPA"
+14/Sep/2015 11:05:54,014- Enhancer: DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+14/Sep/2015 11:05:54,018- Enhancer: DataNucleus Enhancer completed with an error. Please review the enhancer log for full details. Some classes may have been enhanced but some caused errors
+Error creating the MetaDataManager for API "JPA" : Class "org.datanucleus.api.jpa.metadata.JPAMetaDataManager" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.NucleusException: Error creating the MetaDataManager for API "JPA" : Class "org.datanucleus.api.jpa.metadata.JPAMetaDataManager" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.NucleusContext.getMetaDataManager(NucleusContext.java:958)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getMetaDataManager(DataNucleusEnhancer.java:215)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:651)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:525)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1258)
+Caused by: org.datanucleus.exceptions.ClassNotResolvedException: Class "org.datanucleus.api.jpa.metadata.JPAMetaDataManager" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.JDOClassLoaderResolver.classForName(JDOClassLoaderResolver.java:245)
+	at org.datanucleus.plugin.NonManagedPluginRegistry.createExecutableExtension(NonManagedPluginRegistry.java:679)
+	at org.datanucleus.plugin.PluginManager.createExecutableExtension(PluginManager.java:325)
+	at org.datanucleus.NucleusContext.getMetaDataManager(NucleusContext.java:952)
+	... 4 more
+Nested Throwables StackTrace:
+Class "org.datanucleus.api.jpa.metadata.JPAMetaDataManager" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "org.datanucleus.api.jpa.metadata.JPAMetaDataManager" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.JDOClassLoaderResolver.classForName(JDOClassLoaderResolver.java:245)
+	at org.datanucleus.plugin.NonManagedPluginRegistry.createExecutableExtension(NonManagedPluginRegistry.java:679)
+	at org.datanucleus.plugin.PluginManager.createExecutableExtension(PluginManager.java:325)
+	at org.datanucleus.NucleusContext.getMetaDataManager(NucleusContext.java:952)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getMetaDataManager(DataNucleusEnhancer.java:215)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:651)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:525)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1258)
+14/Sep/2015 11:10:44,411- Enhancer: DataNucleus Enhancer for API "JPA"
+14/Sep/2015 11:10:44,504- Enhancer: DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+14/Sep/2015 11:10:44,507- Enhancer: DataNucleus Enhancer completed with an error. Please review the enhancer log for full details. Some classes may have been enhanced but some caused errors
+Error creating the MetaDataManager for API "JPA" : Class "org.datanucleus.api.jpa.metadata.JPAMetaDataManager" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.NucleusException: Error creating the MetaDataManager for API "JPA" : Class "org.datanucleus.api.jpa.metadata.JPAMetaDataManager" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.NucleusContext.getMetaDataManager(NucleusContext.java:958)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getMetaDataManager(DataNucleusEnhancer.java:215)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:651)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:525)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1258)
+Caused by: org.datanucleus.exceptions.ClassNotResolvedException: Class "org.datanucleus.api.jpa.metadata.JPAMetaDataManager" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.JDOClassLoaderResolver.classForName(JDOClassLoaderResolver.java:245)
+	at org.datanucleus.plugin.NonManagedPluginRegistry.createExecutableExtension(NonManagedPluginRegistry.java:679)
+	at org.datanucleus.plugin.PluginManager.createExecutableExtension(PluginManager.java:325)
+	at org.datanucleus.NucleusContext.getMetaDataManager(NucleusContext.java:952)
+	... 4 more
+Nested Throwables StackTrace:
+Class "org.datanucleus.api.jpa.metadata.JPAMetaDataManager" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "org.datanucleus.api.jpa.metadata.JPAMetaDataManager" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.JDOClassLoaderResolver.classForName(JDOClassLoaderResolver.java:245)
+	at org.datanucleus.plugin.NonManagedPluginRegistry.createExecutableExtension(NonManagedPluginRegistry.java:679)
+	at org.datanucleus.plugin.PluginManager.createExecutableExtension(PluginManager.java:325)
+	at org.datanucleus.NucleusContext.getMetaDataManager(NucleusContext.java:952)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getMetaDataManager(DataNucleusEnhancer.java:215)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:651)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:525)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1258)
+14/Sep/2015 11:12:07,383- Enhancer: DataNucleus Enhancer for API "JPA"
+14/Sep/2015 11:12:07,484- Enhancer: DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+14/Sep/2015 11:12:07,487- Enhancer: DataNucleus Enhancer completed with an error. Please review the enhancer log for full details. Some classes may have been enhanced but some caused errors
+Error creating the MetaDataManager for API "JPA" : Class "org.datanucleus.api.jpa.metadata.JPAMetaDataManager" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.NucleusException: Error creating the MetaDataManager for API "JPA" : Class "org.datanucleus.api.jpa.metadata.JPAMetaDataManager" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.NucleusContext.getMetaDataManager(NucleusContext.java:958)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getMetaDataManager(DataNucleusEnhancer.java:215)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:651)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:525)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1258)
+Caused by: org.datanucleus.exceptions.ClassNotResolvedException: Class "org.datanucleus.api.jpa.metadata.JPAMetaDataManager" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.JDOClassLoaderResolver.classForName(JDOClassLoaderResolver.java:245)
+	at org.datanucleus.plugin.NonManagedPluginRegistry.createExecutableExtension(NonManagedPluginRegistry.java:679)
+	at org.datanucleus.plugin.PluginManager.createExecutableExtension(PluginManager.java:325)
+	at org.datanucleus.NucleusContext.getMetaDataManager(NucleusContext.java:952)
+	... 4 more
+Nested Throwables StackTrace:
+Class "org.datanucleus.api.jpa.metadata.JPAMetaDataManager" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "org.datanucleus.api.jpa.metadata.JPAMetaDataManager" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.JDOClassLoaderResolver.classForName(JDOClassLoaderResolver.java:245)
+	at org.datanucleus.plugin.NonManagedPluginRegistry.createExecutableExtension(NonManagedPluginRegistry.java:679)
+	at org.datanucleus.plugin.PluginManager.createExecutableExtension(PluginManager.java:325)
+	at org.datanucleus.NucleusContext.getMetaDataManager(NucleusContext.java:952)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getMetaDataManager(DataNucleusEnhancer.java:215)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:651)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:525)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1258)
+14/Sep/2015 11:38:35,405- Enhancer: DataNucleus Enhancer for API "JPA"
+14/Sep/2015 11:38:35,636- Enhancer: DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+14/Sep/2015 11:38:35,691- Enhancer: DataNucleus Enhancer completed with an error. Please review the enhancer log for full details. Some classes may have been enhanced but some caused errors
+No "persistence-unit" of name "hbase-test" was found in the CLASSPATH. Please check the "persistence.xml" files available
+org.datanucleus.enhancer.NucleusEnhanceException: No "persistence-unit" of name "hbase-test" was found in the CLASSPATH. Please check the "persistence.xml" files available
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:790)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:525)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1258)
+14/Sep/2015 11:40:27,159- Enhancer: DataNucleus Enhancer for API "JPA"
+14/Sep/2015 11:40:27,270- Enhancer: DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+14/Sep/2015 11:40:27,410- Enhancer: Writing class file "/home/rsarkapally/argus/projects/datanucleus-hbase-jpa/target/classes/com/datanucleus/hbase/dao/Department.class" with enhanced definition
+14/Sep/2015 11:40:27,414- Enhancer: Writing class file "/home/rsarkapally/argus/projects/datanucleus-hbase-jpa/target/classes/com/datanucleus/hbase/dao/Employ.class" with enhanced definition
+14/Sep/2015 11:40:27,414- Enhancer: DataNucleus Enhancer completed with success for 2 classes. Timings : input=98 ms, enhance=45 ms, total=143 ms. Consult the log for full details
+14/Sep/2015 11:49:42,170- Enhancer: DataNucleus Enhancer for API "JPA"
+14/Sep/2015 11:49:42,276- Enhancer: DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+14/Sep/2015 11:50:40,073- Enhancer: DataNucleus Enhancer for API "JPA"
+14/Sep/2015 11:50:40,184- Enhancer: DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+14/Sep/2015 11:53:12,704- Enhancer: DataNucleus Enhancer for API "JPA"
+14/Sep/2015 11:53:12,808- Enhancer: DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+14/Sep/2015 14:30:21,766- Enhancer: DataNucleus Enhancer for API "JPA"
+14/Sep/2015 14:30:21,877- Enhancer: DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+14/Sep/2015 14:30:22,048- Enhancer: Writing class file "/home/rsarkapally/argus/projects/datanucleus-hbase-jpa/target/classes/com/datanucleus/hbase/dao/Department.class" with enhanced definition
+14/Sep/2015 14:30:22,053- Enhancer: Writing class file "/home/rsarkapally/argus/projects/datanucleus-hbase-jpa/target/classes/com/datanucleus/hbase/dao/Employ.class" with enhanced definition
+14/Sep/2015 14:30:22,053- Enhancer: DataNucleus Enhancer completed with success for 2 classes. Timings : input=118 ms, enhance=56 ms, total=174 ms. Consult the log for full details
+14/Sep/2015 14:32:18,776- Enhancer: DataNucleus Enhancer for API "JPA"
+14/Sep/2015 14:32:18,881- Enhancer: DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+14/Sep/2015 14:32:19,003- Enhancer: Class "com.datanucleus.hbase.dao.Department" is already enhanced.
+14/Sep/2015 14:32:19,004- Enhancer: Class "com.datanucleus.hbase.dao.Employ" is already enhanced.
+14/Sep/2015 14:32:19,004- Enhancer: DataNucleus Enhancer completed with success for 2 classes. Timings : input=97 ms, enhance=24 ms, total=121 ms. Consult the log for full details
+14/Sep/2015 14:32:52,679- Enhancer: DataNucleus Enhancer for API "JPA"
+14/Sep/2015 14:32:52,784- Enhancer: DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+14/Sep/2015 14:32:52,921- Enhancer: Writing class file "/home/rsarkapally/argus/projects/datanucleus-hbase-jpa/target/classes/com/datanucleus/hbase/dao/Department.class" with enhanced definition
+14/Sep/2015 14:32:52,925- Enhancer: Writing class file "/home/rsarkapally/argus/projects/datanucleus-hbase-jpa/target/classes/com/datanucleus/hbase/dao/Employ.class" with enhanced definition
+14/Sep/2015 14:32:52,925- Enhancer: DataNucleus Enhancer completed with success for 2 classes. Timings : input=95 ms, enhance=45 ms, total=140 ms. Consult the log for full details
+14/Sep/2015 14:35:24,854- Enhancer: DataNucleus Enhancer for API "JPA"
+14/Sep/2015 14:35:24,961- Enhancer: DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+14/Sep/2015 14:36:07,221- Enhancer: DataNucleus Enhancer for API "JPA"
+14/Sep/2015 14:36:07,332- Enhancer: DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+14/Sep/2015 14:37:14,164- Enhancer: DataNucleus Enhancer for API "JPA"
+14/Sep/2015 14:37:14,272- Enhancer: DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+14/Sep/2015 14:38:33,554- Enhancer: DataNucleus Enhancer for API "JPA"
+14/Sep/2015 14:45:29,980- Enhancer: DataNucleus Enhancer for API "JPA"
+14/Sep/2015 14:45:30,100- Enhancer: DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+14/Sep/2015 14:45:30,255- Enhancer: Writing class file "/home/rsarkapally/argus/projects/datanucleus-hbase-jpa/target/classes/com/datanucleus/hbase/dao/Department.class" with enhanced definition
+14/Sep/2015 14:45:30,260- Enhancer: Writing class file "/home/rsarkapally/argus/projects/datanucleus-hbase-jpa/target/classes/com/datanucleus/hbase/dao/Employ.class" with enhanced definition
+14/Sep/2015 14:45:30,261- Enhancer: DataNucleus Enhancer completed with success for 2 classes. Timings : input=112 ms, enhance=47 ms, total=159 ms. Consult the log for full details
+14/Sep/2015 15:09:40,617- Enhancer: DataNucleus Enhancer for API "JPA"
+14/Sep/2015 15:09:40,737- Enhancer: DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+14/Sep/2015 15:09:40,865- Enhancer: Class "com.datanucleus.hbase.dao.Department" is already enhanced.
+14/Sep/2015 15:09:40,866- Enhancer: Class "com.datanucleus.hbase.dao.Employ" is already enhanced.
+14/Sep/2015 15:09:40,866- Enhancer: DataNucleus Enhancer completed with success for 2 classes. Timings : input=104 ms, enhance=24 ms, total=128 ms. Consult the log for full details
+14/Sep/2015 15:37:21,230- Enhancer: DataNucleus Enhancer for API "JPA"
+14/Sep/2015 15:37:21,531- Enhancer: DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+14/Sep/2015 15:37:21,657- Enhancer: DataNucleus Enhancer completed with an error. Please review the enhancer log for full details. Some classes may have been enhanced but some caused errors
+No "persistence-unit" of name "hbase-test" was found in the CLASSPATH. Please check the "persistence.xml" files available
+org.datanucleus.enhancer.NucleusEnhanceException: No "persistence-unit" of name "hbase-test" was found in the CLASSPATH. Please check the "persistence.xml" files available
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:790)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:525)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1258)
+14/Sep/2015 15:38:17,879- Enhancer: DataNucleus Enhancer for API "JPA"
+14/Sep/2015 15:38:17,975- Enhancer: DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+14/Sep/2015 15:38:18,165- Enhancer: Writing class file "/home/rsarkapally/argus/projects/datanucleus-hbase-jpa/target/classes/com/datanucleus/hbase/dao/Department.class" with enhanced definition
+14/Sep/2015 15:38:18,169- Enhancer: Writing class file "/home/rsarkapally/argus/projects/datanucleus-hbase-jpa/target/classes/com/datanucleus/hbase/dao/Employ.class" with enhanced definition
+14/Sep/2015 15:38:18,180- Enhancer: DataNucleus Enhancer completed with success for 2 classes. Timings : input=140 ms, enhance=53 ms, total=193 ms. Consult the log for full details
